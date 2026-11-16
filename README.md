@@ -1,58 +1,41 @@
-<div align="center">
-
 # Worapon Sangsasri
 
-**AI & Embedded Systems Engineer | Assistive Technology Researcher**
+**AI & Embedded Systems Engineer · Developer Tooling & Assistive Robotics**
 
-Building reliable systems at the intersection of **wearable sensing, applied AI, embedded engineering, and human-centered technology**.
+I build local-first developer tools, Model Context Protocol (MCP) infrastructure, and end-to-end sensor-to-AI systems—from ESP32/BLE firmware and real-time inertial telemetry to backend services and agentic workflows.
 
-[Portfolio](https://nnoppons.github.io/) · [LinkedIn](https://www.linkedin.com/in/worapon-sangsasri-0371a8376/) · [Email](mailto:worapon.sangs@gmail.com)
-
-</div>
+[Portfolio](https://nnoppons.github.io/) · [LinkedIn](https://www.linkedin.com/in/worapon-sangsasri-0371a8376/) · [worapon.sangs@gmail.com](mailto:worapon.sangs@gmail.com)
 
 ---
 
-### About
+## Developer Tools & Agent Infrastructure
 
-I'm an electrical engineering graduate from **Thammasat University**, based in Thailand. I build end-to-end systems that connect physical sensors to practical applications—from embedded firmware and signal acquisition to intelligent services and product interfaces.
+- **[mcp-doctor](https://github.com/NnopponS/mcp-doctor)** — Universal MCP server inspector, per-turn BPE token-tax profiler, 17-rule JSON Schema linter, config secret scanner, and cold-start latency auditor for Claude Code, Cursor, Codex, and custom MCP servers. Ships as a zero-dependency TypeScript CLI, local Web Dashboard, and self-hosted MCP server.
+- **[100-games](https://github.com/NnopponS/100-games)** — 100 zero-dependency, single-file HTML5 canvas and WebAudio arcade games with an instant-search web portal ([live arcade](https://nnoppons.github.io/100-games/)).
 
-My work focuses on **AIoT, rehabilitation and assistive technology, human motion analysis, and applied research**.
+## Applied AI, Embedded Telemetry & Assistive Systems
 
-### Featured engineering projects
+- **[WheelSense](https://github.com/NnopponS/WheelSense_Project)** — Assistive-care and indoor wheelchair telemetry platform combining ESP32 BLE/MQTT gateways, indoor room localization, a FastAPI + PostgreSQL backend, Next.js role-based clinical dashboards, and a 3-stage propose/confirm/execute AI workflow.
+- **[WheelAthlete](https://github.com/NnopponS/WheelAthelse)** — Reliability-first wheelchair-sports biomechanics platform (`v1.8.4`) synchronizing left/right wheel-mounted IMUs over BLE for high-rate motion capture, packet-integrity diagnostics, and offline trajectory analysis on Windows.
+- **[ReachSenseAI](https://github.com/NnopponS/ReachSenseAI)** — 3D behind-the-back shoulder flexibility measurement instrument using calibrated ArUco/TrueDepth optical markers, rigid-body pose estimation, and printable OpenSCAD/3MF finger fixtures.
+- **[DroneDetector](https://github.com/NnopponS/DroneDetector)** — Computer-vision and ML pipeline for real-time drone vs. bird classification, multi-frame trajectory tracking, and geolocation regression.
 
-| Project | Focus |
-| :--- | :--- |
-| **[WheelSense](https://github.com/NnopponS/WheelSense_Project)** | An assistive-care and wheelchair monitoring platform integrating IoT sensing, localization, a FastAPI backend, web dashboards, and AI-assisted workflows. |
-| **[WheelAthlete](https://github.com/NnopponS/WheelAthelse)** | A wheelchair-sports motion research platform with synchronized wheel-mounted IMUs, BLE acquisition, data-quality monitoring, and offline motion analysis. |
+---
 
-**WheelSense:** [Platform source](https://github.com/NnopponS/WheelSense_Project) · [Web interface](https://github.com/NnopponS/WheelSense_Webpage)
-
-**WheelAthlete:** [Source and documentation](https://github.com/NnopponS/WheelAthelse) · Windows acquisition workflow and embedded sensor firmware
-
-### Research & recognition
+## Selected Recognition & Publications
 
 - **Best Paper Award, ECTI-CON 2026** — *Comparative Performance Evaluation of BLE-Based Indoor Motion Tracking Using Machine Learning and Large Language Models*
-- **Thailand National Winner, AI Ready ASEAN Youth Challenge (2026)** — WheelSense
-- **Grand Prize, Gold Medal & Popular Vote, Thailand New Gen Inventors Award (2026)** — WheelSense
-- **Gold Medal & Special Award, China (Shanghai) International Invention & Innovation Expo (2026)** — WheelSense
+- **Thailand National Winner, AI Ready ASEAN Youth Challenge (2026)** — *WheelSense*
+- **Grand Prize, Gold Medal & Popular Vote, Thailand New Gen Inventors Award (2026)** — *WheelSense*
+- **Gold Medal & Special Award, China (Shanghai) International Invention & Innovation Expo (2026)** — *WheelSense*
 - **Champion, LabVIEW Battle Thailand (2025)**
-
-Further research, award details, and professional background are available on my [portfolio](https://nnoppons.github.io/) and [LinkedIn](https://www.linkedin.com/in/worapon-sangsasri-0371a8376/).
-
-### Engineering toolkit
-
-**Embedded & sensing** · ESP32 · BLE · IMUs · MQTT · PlatformIO · LabVIEW
-
-**AI & data** · Python · Machine Learning · LLM Evaluation · Signal Processing
-
-**Applications & infrastructure** · FastAPI · Next.js · Flutter · PostgreSQL · Docker
 
 ---
 
-<div align="center">
+## Engineering Stack
 
-**Open to research collaboration and conversations about AI, robotics, wearable sensing, and assistive technology.**
-
-[Explore my portfolio](https://nnoppons.github.io/) · [Connect on LinkedIn](https://www.linkedin.com/in/worapon-sangsasri-0371a8376/)
-
-</div>
+| Domain | Technologies |
+| :--- | :--- |
+| **Developer Tooling & AI Agents** | TypeScript · Node.js · Model Context Protocol (MCP) · JSON-RPC 2.0 · LLM Evaluation |
+| **Embedded & Hardware Telemetry** | C/C++ · ESP32 · BLE · IMU Sensor Fusion · MQTT · PlatformIO · LabVIEW |
+| **Backend, Web & Mobile** | Python · FastAPI · Next.js · React · Flutter/Dart · PostgreSQL · Docker |
