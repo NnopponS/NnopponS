@@ -90,18 +90,18 @@ body += text(48, 168, "AI & Embedded Systems Engineer · Open-Source Tooling Aut
 body += text(48, 206, "Building MCP developer infrastructure, real-time BLE/IMU telemetry, and assistive AI platforms.", 16.5, MUTED)
 
 body += (
-    chip(48, 232, "MCP INFRASTRUCTURE", CYAN, 198)
-    + chip(258, 232, "EMBEDDED AI & BLE", BLUE, 184)
-    + chip(454, 232, "ASSISTIVE ROBOTICS", GOLD, 192)
-    + chip(658, 232, "TYPESCRIPT & PYTHON", GREEN, 198)
+    chip(48, 232, "AAIF 2026 STACK", CYAN, 174)
+    + chip(234, 232, "EMBEDDED AI & BLE", BLUE, 184)
+    + chip(430, 232, "ASSISTIVE ROBOTICS", GOLD, 192)
+    + chip(634, 232, "TYPESCRIPT & PYTHON", GREEN, 198)
 )
 
 # Live HUD terminal strip inside hero
 body += f'<rect x="48" y="284" width="660" height="78" rx="12" fill="{PANEL}" stroke="{LINE}"/>'
 body += '<circle cx="70" cy="304" r="4.5" fill="#ef4444"/><circle cx="86" cy="304" r="4.5" fill="#f59e0b"/><circle cx="102" cy="304" r="4.5" fill="#22c55e"/>'
-body += text(120, 308, "mcp-doctor check — live stdio telemetry", 11.5, MUTED, mono=True)
-body += text(68, 334, "$ npx github:NnopponS/mcp-doctor check \"node dist/cli.js mcp\"", 13, WHITE, mono=True)
-body += text(68, 353, "✓ Score: 100/100 (A+) · Tax: ~316 tok/turn · Handshake: 48.2ms · 0 issues", 12.5, GREEN, 700, mono=True)
+body += text(120, 308, "agent-doctor stack . --ci  (AAIF 4-layer audit)", 11.5, MUTED, mono=True)
+body += text(68, 334, "$ npx -y github:NnopponS/agent-doctor stack . --ci", 13, WHITE, mono=True)
+body += text(68, 353, "✓ Score: 100/100 (A+) · AGENTS.md · SKILL.md · MCP 2026 · A2A · Cache Guard", 12, GREEN, 700, mono=True)
 
 body += '<path d="M48 382H708" stroke="#263650"/>'
 body += (
@@ -128,7 +128,7 @@ save(
     450,
     "Worapon Sangsasri — AI & Embedded Systems Engineer",
     body,
-    "Animated engineering banner for Worapon Sangsasri featuring MCP infrastructure, embedded BLE/IMU telemetry, and assistive AI systems.",
+    "Animated engineering banner for Worapon Sangsasri featuring AAIF agent infrastructure, embedded BLE/IMU telemetry, and assistive AI systems.",
 )
 
 # 2. Mobile Hero (640x490)
@@ -137,11 +137,11 @@ body += text(30, 42, "KNIGHT / SYSTEMS & DEV TOOLING", 12.5, CYAN, 700, mono=Tru
 body += text(28, 110, "Worapon", 54, WHITE, 700) + text(28, 170, "Sangsasri", 54, WHITE, 700)
 body += knight(542, 118, 0.68)
 body += text(30, 218, "AI & Embedded Systems Engineer", 20, BLUE, 700)
-body += text(30, 248, "MCP tooling · BLE/IMU telemetry · Assistive AI", 15.5, MUTED)
-body += chip(30, 276, "MCP-DOCTOR", CYAN, 134) + chip(174, 276, "EMBEDDED AI", BLUE, 142) + chip(326, 276, "ASSISTIVE TECH", GOLD, 166)
+body += text(30, 248, "AAIF 2026 tooling · BLE/IMU telemetry · Assistive AI", 15.5, MUTED)
+body += chip(30, 276, "AGENT-DOCTOR", CYAN, 148) + chip(188, 276, "EMBEDDED AI", BLUE, 142) + chip(340, 276, "ASSISTIVE TECH", GOLD, 166)
 body += f'<rect x="30" y="324" width="580" height="66" rx="10" fill="{PANEL}" stroke="{LINE}"/>'
-body += text(46, 350, "$ npx github:NnopponS/mcp-doctor demo", 12.5, WHITE, mono=True)
-body += text(46, 374, "✓ Score: 100/100 (A+) · Auto-Fix · SARIF · Web UI", 12, GREEN, 700, mono=True)
+body += text(46, 350, "$ npx -y github:NnopponS/agent-doctor stack .", 12.5, WHITE, mono=True)
+body += text(46, 374, "✓ Score: 100/100 (A+) · Prompt Cache · SARIF · Web UI", 12, GREEN, 700, mono=True)
 body += '<path d="M30 412H610" stroke="#263650"/>'
 body += text(30, 444, "SENSE · VERIFY · REASON · SHIP", 16, CYAN, 700, True)
 body += text(30, 472, "BANGKOK, THAILAND / @NNOPPONS", 12, MUTED, mono=True)
@@ -157,7 +157,7 @@ for name, label, color, icon, w in [
     b += text(22, 27, icon, 17, color, 700, extra='text-anchor="middle"') + text(55, 27, label, 12, WHITE, 700, True)
     save(f"{name}.svg", w, 42, label, b)
 
-# 4. NEW Flagship Card: mcp-doctor (1200x280 Animated SVG)
+# 4. Flagship Card: agent-doctor v2.0.0 (1200x280 Animated SVG)
 body = panel(1200, 280) + grid(1200, 280, "mcpgrid")
 body += '''<style>
 @keyframes scanline{0%{transform:translateX(-120px)}100%{transform:translateX(380px)}}
@@ -166,49 +166,49 @@ body += '''<style>
 .gpulse{animation:glowPulse 2.2s ease-in-out infinite}
 @media(prefers-reduced-motion:reduce){.scan,.gpulse{animation:none}}
 </style>'''
-body += text(36, 42, "01  /  OPEN-SOURCE AI AGENT INFRASTRUCTURE", 13, GREEN, 700, mono=True, extra='letter-spacing="1.6"')
-body += text(36, 90, "mcp-doctor", 38, WHITE, 700)
-body += chip(285, 62, "v1.2.0 RELEASE", GREEN, 152) + chip(447, 62, "0 RUNTIME DEPS", CYAN, 156)
-body += text(36, 130, "Universal MCP Server Inspector, Per-Turn Token Profiler, Auto-Fixer & Security Linter.", 18.5, MUTED)
-body += text(36, 162, "Audits JSON-RPC 2.0 stdio handshakes · Fixes broken schemas · Exports SARIF & SVG badges · Ships Web UI & MCP server", 15, MUTED)
+body += text(36, 42, "01  /  2026 AAIF AGENT STACK & PROMPT-CACHE INFRASTRUCTURE", 13, GREEN, 700, mono=True, extra='letter-spacing="1.6"')
+body += text(36, 90, "agent-doctor", 38, WHITE, 700)
+body += chip(312, 62, "v2.0.0 RELEASE", GREEN, 152) + chip(474, 62, "0 RUNTIME DEPS", CYAN, 156)
+body += text(36, 130, "AAIF 4-Layer Inspector (AGENTS.md · SKILL.md · MCP 2026 · A2A) &amp; Schema Auto-Healer.", 18, MUTED)
+body += text(36, 162, "Claude 5.5 · GPT-6 · Gemini 4 · DeepSeek V4 cache billing · Prompt-cache guard · Skill migrator", 15, MUTED)
 body += (
-    chip(36, 198, "TypeScript", CYAN, 118)
-    + chip(164, 198, "MCP / JSON-RPC", BLUE, 156)
-    + chip(330, 198, "Auto-Fixer", GREEN, 118)
-    + chip(458, 198, "SARIF 2.1.0", GOLD, 124)
-    + chip(592, 198, "llms.txt", PURPLE, 102)
+    chip(36, 198, "AGENTS.md", CYAN, 114)
+    + chip(160, 198, "SKILL.md (-90%)", GREEN, 154)
+    + chip(324, 198, "MCP 2026-07-28", BLUE, 152)
+    + chip(486, 198, "A2A Card", GOLD, 108)
+    + chip(604, 198, "SARIF + llms.txt", PURPLE, 150)
 )
-body += text(36, 254, "npx github:NnopponS/mcp-doctor check \"<command>\"   |   nnoppons.github.io/mcp-doctor", 13, CYAN, 700, mono=True)
+body += text(36, 254, "npx -y github:NnopponS/agent-doctor stack .   |   nnoppons.github.io/agent-doctor", 13, CYAN, 700, mono=True)
 
-# Right-side animated diagnostic console inside mcp-doctor.svg
-body += f'<g transform="translate(745 28)"><rect width="420" height="224" rx="16" fill="{PANEL}" stroke="#344a65" stroke-width="1.5"/>'
-body += f'<rect x="16" y="16" width="388" height="36" rx="8" fill="{PANEL_ALT}" stroke="{LINE}"/>'
+# Right-side animated diagnostic console inside agent-doctor.svg
+body += f'<g transform="translate(765 28)"><rect width="400" height="224" rx="16" fill="{PANEL}" stroke="#344a65" stroke-width="1.5"/>'
+body += f'<rect x="16" y="16" width="368" height="36" rx="8" fill="{PANEL_ALT}" stroke="{LINE}"/>'
 body += '<circle class="gpulse" cx="34" cy="34" r="5" fill="#34d399"/>'
-body += text(48, 39, "HEALTH SCORE: 100/100 (A+)", 13.5, GREEN, 700, mono=True)
-body += text(292, 39, "48.2ms INIT", 12, CYAN, 700, mono=True)
+body += text(48, 39, "AAIF STACK: 100/100 (A+)", 13.5, GREEN, 700, mono=True)
+body += text(286, 39, "7 TOOLS", 12, CYAN, 700, mono=True)
 
 bars = [
-    ("diagnose_mcp_server", "103 tok", 220, CYAN),
-    ("auto_fix_tool_schemas", "94 tok", 195, GREEN),
-    ("scan_mcp_config", "82 tok", 170, BLUE),
-    ("audit_tool_schemas", "69 tok", 145, GOLD),
+    ("AGENTS.md (Always-On)", "375 tok", 160, CYAN),
+    ("SKILL.md (Frontmatter)", "73 tok", 110, GREEN),
+    ("MCP 2026 (Cache Safe)", "249 tok", 140, BLUE),
+    ("A2A Card (On-Demand)", "530 tok", 185, GOLD),
 ]
 for idx, (tname, tval, bw, bcol) in enumerate(bars):
     by = 72 + idx * 32
-    body += text(20, by + 12, tname, 12, WHITE, mono=True)
-    body += f'<rect x="195" y="{by}" width="145" height="12" rx="6" fill="#090d16" stroke="{LINE}"/>'
-    body += f'<rect x="195" y="{by}" width="{int(bw*0.6)}" height="12" rx="6" fill="{bcol}"/>'
-    body += text(348, by + 11, tval, 11.5, MUTED, mono=True)
+    body += text(18, by + 12, tname, 11.5, WHITE, mono=True)
+    body += f'<rect x="195" y="{by}" width="120" height="12" rx="6" fill="#090d16" stroke="{LINE}"/>'
+    body += f'<rect x="195" y="{by}" width="{int(bw*0.58)}" height="12" rx="6" fill="{bcol}"/>'
+    body += text(323, by + 11, tval, 11, MUTED, mono=True)
 
-body += text(20, 208, "17 Rules · Schema Healer · Secret Scanner · GitHub Action", 11.5, GOLD, mono=True)
+body += text(18, 208, "MCP001-020 · Cache Guard · Auto-Fix · OAuth 2.1", 11, GOLD, mono=True)
 body += "</g>"
 save(
-    "mcp-doctor.svg",
+    "agent-doctor.svg",
     1200,
     280,
-    "mcp-doctor — Universal MCP Server Inspector & Token Profiler",
+    "agent-doctor — 2026 AAIF Agent Stack Inspector & Prompt-Cache Profiler",
     body,
-    "Open-source CLI, Web UI, and MCP server for auditing and auto-fixing Model Context Protocol servers.",
+    "Open-source CLI, Web UI, and MCP 2026 server for auditing AGENTS.md, SKILL.md, MCP tool schemas, prompt-cache hits, and A2A cards.",
 )
 
 # 5. Flagship Card: WheelSense + EaseAI (1200x270 Animated SVG)
@@ -310,7 +310,7 @@ project_card(
 body = panel(1200, 246)
 body += text(34, 40, "THE ENGINEERING WORKBENCH", 13, CYAN, 700, mono=True, extra='letter-spacing="2"')
 groups = [
-    ("DEVELOPER TOOLING & MCP", GREEN, ["TypeScript · Node.js · CLI", "Model Context Protocol (MCP)", "JSON-RPC 2.0 · SARIF · CI"]),
+    ("AAIF AGENT INFRASTRUCTURE", GREEN, ["AGENTS.md · SKILL.md · A2A", "MCP 2026-07-28 · OAuth 2.1", "Prompt-Cache · SARIF · CI"]),
     ("EMBEDDED & SENSING", CYAN, ["ESP32-S3 · M5StickC Plus2", "BLE · Dual-Wheel IMUs · MQTT", "PlatformIO · LabVIEW"]),
     ("AI & SIGNAL PROCESSING", BLUE, ["Python · XGBoost · OpenCV", "LLM & Agent Evaluation", "Sensor Fusion · Kinematics"]),
     ("FULL-STACK SYSTEMS", GOLD, ["FastAPI · Next.js · React", "Flutter · Windows Desktop", "PostgreSQL · Docker"]),
@@ -335,7 +335,7 @@ save("stack-mobile.svg", 640, 458, "Engineering workbench", body)
 
 # 8. Footer Banner
 body = panel(1200, 112) + text(36, 47, "ENGINEERING TOOLS & SYSTEMS THAT WORK IN THE REAL WORLD.", 23, WHITE, 700)
-body += text(36, 80, "Open-source MCP infrastructure · Embedded BLE/IMU telemetry · Assistive AIoT platforms", 15, MUTED)
+body += text(36, 80, "Open-source AAIF agent tooling · Embedded BLE/IMU telemetry · Assistive AIoT platforms", 15, MUTED)
 body += knight(1113, 49, 0.48)
 save("footer.svg", 1200, 112, "Engineering tools and systems that work in the real world", body)
 
@@ -357,10 +357,10 @@ def draw_frame(t):
     im = Image.new("RGB", (W, H), BG)
     d = ImageDraw.Draw(im)
     d.rounded_rectangle((1, 1, W - 2, H - 2), radius=22, outline=LINE, width=2)
-    d.text((30, 19), "ARCHITECTURE LOOP  /  PHYSICAL SENSORS  ->  MCP & VERIFICATION  ->  PRODUCTION INTERFACES", font=font(12, bold=False, mono=True), fill=MUTED)
+    d.text((30, 19), "ARCHITECTURE LOOP  /  PHYSICAL SENSORS  ->  AGENT STACK VERIFICATION  ->  PRODUCTION INTERFACES", font=font(12, bold=False, mono=True), fill=MUTED)
     boxes = [
         (31, "01", "SENSE", "ESP32 · BLE · Dual IMUs", CYAN),
-        (444, "02", "VERIFY & REASON", "MCP Doctor · ML/LLM · Guardrails", GREEN),
+        (444, "02", "VERIFY & REASON", "Agent Doctor · ML/LLM · Guardrails", GREEN),
         (857, "03", "SHIP", "CLI · Web Dashboards · Care AI", GOLD),
     ]
     for x, num, label, sub, color in boxes:
@@ -389,10 +389,10 @@ palette = frames[0].quantize(colors=128, method=Image.Quantize.MEDIANCUT)
 frames = [im.quantize(palette=palette, dither=Image.Dither.NONE) for im in frames]
 frames[0].save(OUT / "signal-loop.gif", save_all=True, append_images=frames[1:], duration=75, loop=0, optimize=True, disposal=1)
 
-body = panel(W, H) + text(30, 32, "ARCHITECTURE LOOP  /  PHYSICAL SENSORS -> MCP & VERIFICATION -> PRODUCTION INTERFACES", 12, MUTED, mono=True)
+body = panel(W, H) + text(30, 32, "ARCHITECTURE LOOP  /  PHYSICAL SENSORS -> AGENT STACK VERIFICATION -> PRODUCTION INTERFACES", 12, MUTED, mono=True)
 for x, num, label, sub, color in [
     (31, "01", "SENSE", "ESP32 · BLE · Dual IMUs", CYAN),
-    (444, "02", "VERIFY & REASON", "MCP Doctor · ML/LLM · Guardrails", GREEN),
+    (444, "02", "VERIFY & REASON", "Agent Doctor · ML/LLM · Guardrails", GREEN),
     (857, "03", "SHIP", "CLI · Web Dashboards · Care AI", GOLD),
 ]:
     body += f'<rect x="{x}" y="56" width="311" height="98" rx="14" fill="{PANEL}" stroke="{LINE}"/>'

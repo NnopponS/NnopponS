@@ -17,10 +17,10 @@
 
 <img align="right" src="./assets/portrait.png" width="116" alt="Portrait of Worapon Sangsasri" />
 
-I'm **Worapon (Knight) Sangsasri**, an **AI & Embedded Systems Engineer** in Bangkok, Thailand. I build local-first developer tools, Model Context Protocol (MCP) infrastructure, and end-to-end sensor-to-AI platforms.
+I'm **Worapon (Knight) Sangsasri**, an **AI & Embedded Systems Engineer** in Bangkok, Thailand. I build local-first developer tools, 2026 AAIF agent infrastructure (`AGENTS.md`, `SKILL.md`, `MCP 2026`, `A2A`), and end-to-end sensor-to-AI platforms.
 
 My work spans the full stack between hardware and autonomous software:
-- **Developer & Agent Infrastructure:** Building **[mcp-doctor](https://github.com/NnopponS/mcp-doctor)** (`v1.2.0`) to audit JSON-RPC 2.0 handshakes, profile per-turn BPE token taxes, auto-fix broken tool schemas, and export SARIF security reports for Claude Code, Cursor, and Codex.
+- **Developer & Agent Infrastructure:** Building **[agent-doctor](https://github.com/NnopponS/agent-doctor)** (`v2.0.0`) to audit 4-layer AAIF agent stacks, detect prompt-cache busting, calculate cached vs uncached token costs across Claude 5.5 / GPT-6 / Gemini 4 / DeepSeek V4 / Qwen 3.8, and auto-heal MCP schemas.
 - **Assistive Robotics & Telemetry:** Architecting **[WheelSense](https://github.com/NnopponS/WheelSense_Project)** and **[WheelAthlete](https://github.com/NnopponS/WheelAthelse)** across ESP32-S3 BLE/MQTT gateways, synchronized dual-wheel IMUs, FastAPI backends, and clinical dashboards.
 - **Empirical Verification:** Every tool and firmware pipeline I ship is backed by deterministic tests, measured latency/token numbers, and reproducible hardware or protocol checks.
 
@@ -28,17 +28,17 @@ My work spans the full stack between hardware and autonomous software:
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/signal-still.svg" />
-  <img src="./assets/signal-loop.gif" width="100%" alt="Animated architecture loop: 01 Sense (ESP32, BLE, Dual IMUs) -> 02 Verify & Reason (MCP Doctor, ML/LLM, Guardrails) -> 03 Ship (CLI, Web Dashboards, Care AI)." />
+  <img src="./assets/signal-loop.gif" width="100%" alt="Animated architecture loop: 01 Sense (ESP32, BLE, Dual IMUs) -> 02 Verify & Reason (Agent Doctor, ML/LLM, Guardrails) -> 03 Ship (CLI, Web Dashboards, Care AI)." />
 </picture>
 
 ---
 
 ## Flagship Open-Source & Systems Builds
 
-<a href="https://github.com/NnopponS/mcp-doctor"><img src="./assets/mcp-doctor.svg" width="100%" alt="mcp-doctor v1.2.0: Universal MCP Server Inspector, Per-Turn Token Profiler, Auto-Fixer & Security Linter." /></a>
+<a href="https://github.com/NnopponS/agent-doctor"><img src="./assets/agent-doctor.svg" width="100%" alt="agent-doctor v2.0.0: 2026 AAIF 4-Layer Agent Stack Inspector, Prompt-Cache Profiler, Auto-Healer & Security Linter." /></a>
 
-**[mcp-doctor Repository ↗](https://github.com/NnopponS/mcp-doctor)** · **[Interactive Web Playground & Docs ↗](https://nnoppons.github.io/mcp-doctor/)** · **[v1.2.0 Release ↗](https://github.com/NnopponS/mcp-doctor/releases)**  
-Zero-dependency CLI, local Web Dashboard, GitHub Action, and self-hosted MCP server that profiles context-window token tax, repairs broken JSON Schemas (`mcp-doctor fix`), scans MCP configs for leaked API keys, and exports SARIF 2.1.0 + SVG health badges.
+**[agent-doctor Repository ↗](https://github.com/NnopponS/agent-doctor)** · **[Interactive Web Playground & Docs ↗](https://nnoppons.github.io/agent-doctor/)** · **[v2.0.0 Release ↗](https://github.com/NnopponS/agent-doctor/releases/tag/v2.0.0)**  
+Zero-dependency CLI, local Web Dashboard, GitHub Action, and 7-tool MCP 2026 server that audits `AGENTS.md`, `SKILL.md`, `MCP 2026-07-28`, and A2A Agent Cards—modeling Claude 5.x tokenizer overhead, catching prompt-cache busting (`MCP018`), migrating bloated tools to progressive skills (`-90%` tokens), and exporting SARIF 2.1.0 + `llms.txt`.
 
 <br />
 
