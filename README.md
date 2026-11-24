@@ -1,112 +1,45 @@
-<p align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg" />
-    <img src="./assets/hero.svg" width="100%" alt="Worapon Sangsasri — AI & Embedded Systems Engineer, Open-Source MCP Tooling Author, and Assistive Robotics Builder." />
-  </picture>
-</p>
+# Worapon Sangsasri · Knight
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/worapon-sangsasri-0371a8376/"><img src="./assets/linkedin.svg" height="38" alt="Connect on LinkedIn" /></a>
-  &nbsp;
-  <a href="https://nnoppons.github.io/"><img src="./assets/portfolio.svg" height="38" alt="Explore my portfolio" /></a>
-  &nbsp;
-  <a href="mailto:worapon.sangs@gmail.com"><img src="./assets/email.svg" height="38" alt="Email Worapon" /></a>
-</p>
+**Applications Engineer at TECHSQUARE · LabVIEW · Embedded AI for Assistive Technology**
 
-### Systems That Bridge Physical Sensors, AI Agents & Developer Tooling
+I build systems that turn signals from hardware into something people can act on. At TECHSQUARE, I build LabVIEW demos and help customers get started with their applications. In research, I build and evaluate connected sensing systems for assistive technology.
 
-<img align="right" src="./assets/portrait.png" width="116" alt="Portrait of Worapon Sangsasri" />
+[**Portfolio**](https://nnoppons.github.io/) · [**LinkedIn**](https://www.linkedin.com/in/worapon-sangsasri-0371a8376/) · [**2026 competition recap**](https://www.linkedin.com/feed/update/urn:li:activity:7531009753288691712/) · [**Email**](mailto:worapon.sangs@gmail.com)
 
-I'm **Worapon (Knight) Sangsasri**, an **AI & Embedded Systems Engineer** in Bangkok, Thailand. I build local-first developer tools, 2026 AAIF agent infrastructure (`AGENTS.md`, `SKILL.md`, `MCP 2026`, `A2A`), and end-to-end sensor-to-AI platforms.
+<a href="https://nnoppons.github.io/#awards"><img src="./assets/innoserve-stage-2026.jpg" width="100%" alt="The WheelSense team receives its award onstage at InnoServe 2026 in Taipei, Taiwan." /></a>
 
-My work spans the full stack between hardware and autonomous software:
-- **Developer & Agent Infrastructure:** Building **[agent-doctor](https://github.com/NnopponS/agent-doctor)** (`v2.0.0`) to audit 4-layer AAIF agent stacks, detect prompt-cache busting, calculate cached vs uncached token costs across Claude 5.5 / GPT-6 / Gemini 4 / DeepSeek V4 / Qwen 3.8, and auto-heal MCP schemas.
-- **Assistive Robotics & Telemetry:** Architecting **[WheelSense](https://github.com/NnopponS/WheelSense_Project)** and **[WheelAthlete](https://github.com/NnopponS/WheelAthelse)** across ESP32-S3 BLE/MQTT gateways, synchronized dual-wheel IMUs, FastAPI backends, and clinical dashboards.
-- **Empirical Verification:** Every tool and firmware pipeline I ship is backed by deterministic tests, measured latency/token numbers, and reproducible hardware or protocol checks.
+*InnoServe Awards 2026, Taipei · 3rd place, International Exchange (English).*
 
-<br clear="all" />
+## Selected work
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/signal-still.svg" />
-  <img src="./assets/signal-loop.gif" width="100%" alt="Animated architecture loop: 01 Sense (ESP32, BLE, Dual IMUs) -> 02 Verify & Reason (Agent Doctor, ML/LLM, Guardrails) -> 03 Ship (CLI, Web Dashboards, Care AI)." />
-</picture>
+**01 / WheelSense & EaseAI · Assistive technology**
 
----
+WheelSense started as a home prototype for wheelchair users, with indoor tracking, reminders, appliance controls, and exercise suggestions. EaseAI extended that work into a caregiver workflow prototype for nursing homes. I worked across embedded sensing, firmware, mobile, and backend.
 
-## Flagship Open-Source & Systems Builds
+[Engineering case study](https://nnoppons.github.io/wheelsense/) · [Source code](https://github.com/NnopponS/WheelSense_Project)
 
-<a href="https://github.com/NnopponS/agent-doctor"><img src="./assets/agent-doctor.svg" width="100%" alt="agent-doctor v2.0.0: 2026 AAIF 4-Layer Agent Stack Inspector, Prompt-Cache Profiler, Auto-Healer & Security Linter." /></a>
+**02 / WheelAthlete · Research instrumentation**
 
-**[agent-doctor Repository ↗](https://github.com/NnopponS/agent-doctor)** · **[Interactive Web Playground & Docs ↗](https://nnoppons.github.io/agent-doctor/)** · **[v2.0.0 Release ↗](https://github.com/NnopponS/agent-doctor/releases/tag/v2.0.0)**  
-Zero-dependency CLI, local Web Dashboard, GitHub Action, and 7-tool MCP 2026 server that audits `AGENTS.md`, `SKILL.md`, `MCP 2026-07-28`, and A2A Agent Cards—modeling Claude 5.x tokenizer overhead, catching prompt-cache busting (`MCP018`), migrating bloated tools to progressive skills (`-90%` tokens), and exporting SARIF 2.1.0 + `llms.txt`.
+Synchronized left and right wheel IMUs feed a Windows workflow for recording wheelchair motion, checking data quality, and exporting datasets. The acquisition process is separated from the desktop interface to keep live recording independent of charts and analysis.
 
-<br />
+[Source code](https://github.com/NnopponS/WheelAthelse) · [Releases](https://github.com/NnopponS/WheelAthelse/releases)
 
-<a href="https://github.com/NnopponS/WheelSense_Project"><img src="./assets/wheelsense.svg" width="100%" alt="WheelSense + EaseAI: BLE indoor localization, clinical telemetry, FastAPI, Next.js 16, and 3-stage AI care workflows." /></a>
+**03 / Indoor motion tracking · First-author research**
 
-**[WheelSense Platform Source ↗](https://github.com/NnopponS/WheelSense_Project)** · End-to-end assistive-care and wheelchair monitoring platform integrating ESP32 BLE/MQTT gateways, room-level localization, FastAPI + PostgreSQL services, and role-based Next.js dashboards.
+At Thammasat University's CED2 research center, I compared machine learning and large language models for indoor motion tracking from Bluetooth Low Energy signal data. This work received Best Paper at ECTI-CON 2026.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/NnopponS/WheelAthelse"><img src="./assets/wheelathlete.svg" width="100%" alt="WheelAthlete v1.8.4 — synchronized left/right wheel IMUs over BLE for wheelchair sports biomechanics." /></a>
-      <p><a href="https://github.com/NnopponS/WheelAthelse"><strong>WheelAthlete v1.8.4 ↗</strong></a> · <a href="https://github.com/NnopponS/WheelAthelse/releases"><strong>Releases ↗</strong></a><br />Synchronized dual-wheel BLE IMU acquisition, packet quality control, and offline trajectory analysis for Windows.</p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/NnopponS/ReachSenseAI"><img src="./assets/reachsense.svg" width="100%" alt="ReachSenseAI — 3D shoulder flexibility measurement instrument using ArUco and TrueDepth markers." /></a>
-      <p><a href="https://github.com/NnopponS/ReachSenseAI"><strong>ReachSenseAI ↗</strong></a> · <a href="https://nnoppons.github.io/ReachSenseAI/"><strong>Web Workbench ↗</strong></a><br />3D behind-the-back shoulder flexibility measurement instrument with calibrated optical markers and printable 3MF fixtures.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/NnopponS/100-games"><img src="./assets/hundred-games.svg" width="100%" alt="100-games — 100 zero-dependency single-file HTML5 Canvas and WebAudio arcade games." /></a>
-      <p><a href="https://github.com/NnopponS/100-games"><strong>100-games Source ↗</strong></a> · <a href="https://nnoppons.github.io/100-games/"><strong>Play Live Arcade ↗</strong></a><br />100 self-contained HTML5 Canvas and procedural WebAudio arcade games with a unified instant-search portal.</p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/NnopponS/DroneDetector"><img src="./assets/drone.svg" width="100%" alt="DroneDetector — real-time drone vs. bird classification, tracking, and GPS regression." /></a>
-      <p><a href="https://github.com/NnopponS/DroneDetector"><strong>DroneDetector ↗</strong></a><br />Computer-vision pipeline for real-time drone vs. bird classification, multi-frame tracking, and GPS coordinate regression.</p>
-    </td>
-  </tr>
-</table>
+[Read the IEEE paper](https://ieeexplore.ieee.org/document/11608653)
 
----
+## How I got here
 
-## Research & Recognition
+- **2025 / LabVIEW Battle Thailand → TESA Top Gun Rally.** My team placed first at LabVIEW Battle and fourth nationwide at Top Gun. That's where I found I liked building both the embedded and application sides of a system.
+- **2026 / Building WheelSense and EaseAI.** WheelSense earned Gold, the category win, and Popular Vote at I-New Gen, and a Merit Award at HIC Thailand. EaseAI took first at the TESAIoT Service Robotics Hackathon.
+- **2026 / Showing our work abroad.** We represented Thailand at AI Ready ASEAN in Singapore, took Gold and a Special Award in Shanghai, and placed third at InnoServe in Taipei. I also received the Quality Youths Scholarship of the Year in Thailand.
 
-**First Author · ECTI-CON 2026 — Best Paper Award**  
-*Comparative Performance Evaluation of BLE-Based Indoor Motion Tracking Using Machine Learning and Large Language Models*
+[See the full recognition timeline](https://nnoppons.github.io/#awards)
 
-| Year | Recognition | System / Domain |
-| :--- | :--- | :--- |
-| **2026** | 🏆 **Best Paper Award** · ECTI-CON 2026 International Conference | BLE Motion Tracking (ML vs. LLM) |
-| **2026** | 🏆 **Thailand National Winner** · AI Ready ASEAN Youth Challenge | WheelSense Platform |
-| **2026** | 🥇 **Grand Prize + Gold Medal + Popular Vote** · Thailand New Gen Inventors Award | WheelSense Platform |
-| **2026** | 🌏 **Gold Medal + Special Award** · China (Shanghai) International Invention & Innovation Expo | WheelSense Platform |
-| **2026** | ✨ **Honorable Award** · Best AI Awards, Taiwan | EaseAI / WheelSense |
-| **2025** | 🏆 **Champion** · LabVIEW Battle Thailand | Instrumentation & Control |
-| **2025** | 🚀 **4th Place Nationwide** · TESA Top Gun Rally | Embedded Systems |
+## More from my workbench
 
----
+[agent-doctor](https://github.com/NnopponS/agent-doctor) · [ReachSenseAI](https://github.com/NnopponS/ReachSenseAI) · [DroneDetector](https://github.com/NnopponS/DroneDetector) · [100-games](https://github.com/NnopponS/100-games)
 
-## Engineering Workbench
-
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/stack-mobile.svg" />
-  <img src="./assets/stack.svg" width="100%" alt="Engineering workbench across Developer Tooling & MCP, Embedded & Sensing, AI & Signal Processing, and Full-Stack Systems." />
-</picture>
-
-<details>
-<summary><strong>Expand Full Engineering Stack & Tooling Matrix</strong></summary>
-
-| Domain | Technologies & Protocols |
-| :--- | :--- |
-| **Developer Tooling & Agent Infrastructure** | TypeScript, Node.js, Model Context Protocol (MCP), JSON-RPC 2.0, SARIF 2.1.0, GitHub Actions, CLI/TUI Architecture |
-| **Embedded Hardware & Telemetry** | C/C++, ESP32-S3, M5StickC Plus2, Seeed XIAO nRF52840 Sense, BLE Gatt/RSSI, 6-DoF/9-DoF IMUs, MQTT, PlatformIO, LabVIEW |
-| **AI, Vision & Signal Processing** | Python, XGBoost, Scikit-Learn, OpenCV, MediaPipe, ArUco Pose Estimation, LLM/Agent Evaluation, Sensor Fusion |
-| **Backend, Web & Desktop Surfaces** | FastAPI, Next.js, React, Flutter/Dart, HTML5 Canvas/WebAudio, PostgreSQL, Docker |
-
-</details>
-
----
-
-<a href="https://www.linkedin.com/in/worapon-sangsasri-0371a8376/"><img src="./assets/footer.svg" width="100%" alt="Engineering tools and systems that work in the real world." /></a>
+**Tools I work with:** LabVIEW, C/C++, ESP32, BLE, Python, FastAPI, React, Flutter, and PostgreSQL.
