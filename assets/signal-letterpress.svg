@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="328" viewBox="0 0 1000 328" role="img" aria-labelledby="caption">
+  <title id="caption">Field notes: from signals to support</title>
+  <style>
+    .glint { animation: trace 2.5s ease-out 1 both; }
+    @keyframes trace { from { stroke-dashoffset: 220; opacity: .1; } 70% { opacity: .85; } to { stroke-dashoffset: 0; opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .glint { animation: none; opacity: 0; } }
+  </style>
+  <defs>
+    <pattern id="paper" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r=".7" fill="#284638" opacity=".11"/></pattern>
+    <clipPath id="cut"><rect x="1" y="1" width="998" height="326" rx="25"/></clipPath>
+  </defs>
+  <g clip-path="url(#cut)">
+    <rect width="1000" height="328" rx="25" fill="#f6f3e9"/>
+    <path d="M615 0h385v328H615z" fill="#e5ebe0"/>
+    <path d="M615 0h385v328H615z" fill="url(#paper)"/>
+    <path d="M615 0V328" stroke="#c4cec0"/>
+    <path d="M48 59H568 M48 272H568" fill="none" stroke="#d3d5c6"/>
+    <path d="M54 43H80" fill="none" stroke="#905b43" stroke-width="2"/>
+    <circle cx="52" cy="43" r="3" fill="#905b43"/>
+    <text x="91" y="48" font-size="13" letter-spacing="2.5" fill="#514e43" font-family="'DejaVu Sans Mono',ui-monospace,monospace">FIELD NOTES / 01</text>
+    <g fill="#1c3026" font-family="Georgia,'Liberation Serif',serif">
+      <text x="46" y="155" font-size="69" letter-spacing="-2.9">From signals</text>
+      <text x="47" y="228" font-size="69" letter-spacing="-2.9" font-style="italic">to support.</text>
+    </g>
+    <text x="48" y="297" font-size="12.5" letter-spacing="1.5" fill="#4a574d" font-family="'DejaVu Sans Mono',ui-monospace,monospace">WORAPON SANGSASRI / ENGINEERING &amp; RESEARCH</text>
+    <g fill="none" stroke="#809b88" stroke-opacity=".54">
+      <path d="M649 160h315m-158-113v221" stroke-dasharray="3 8"/>
+      <circle cx="806" cy="160" r="91"/><circle cx="806" cy="160" r="68"/><circle cx="806" cy="160" r="44"/>
+      <circle cx="806" cy="160" r="104" stroke-dasharray="39 12 3 10 24 7" transform="rotate(-66 806 160)"/>
+    </g>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M664 160h45l18-11 18 24 23-46 15 54 18-27 17 6h13l13-8 13 14 22-25 22 19h47" stroke="#345e4d" stroke-width="2.1"/>
+      <path class="glint" d="M664 160h45l18-11 18 24 23-46 15 54 18-27 17 6h13l13-8 13 14 22-25 22 19h47" stroke="#b17c60" stroke-width="3.5" stroke-dasharray="42 500"/>
+    </g>
+    <circle cx="768" cy="127" r="4" fill="#925e49"/><circle cx="879" cy="141" r="3" fill="#925e49"/>
+    <text x="807" y="299" text-anchor="middle" font-size="12.5" letter-spacing="1.8" fill="#4a574d" font-family="'DejaVu Sans Mono',ui-monospace,monospace">ILLUSTRATIVE SIGNAL</text>
+  </g>
+  <rect x=".5" y=".5" width="999" height="327" rx="25" fill="none" stroke="#cbd3c4"/>
+</svg>
