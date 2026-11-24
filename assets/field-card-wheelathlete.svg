@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 128" width="550" height="128" role="img" aria-label="WheelAthlete: Browse source code">
+<title>WheelAthlete: Browse source code</title>
+<rect x=".5" y=".5" width="549" height="127" rx="14" fill="#d4dece" stroke="#406557" stroke-opacity=".55"/>
+        <path d="M367 18v92" stroke="#406557" opacity=".45"/>
+        <rect x="15" y="16" width="29" height="19" rx="5" fill="#406557" opacity=".22"/>
+        <text x="22" y="30" font-family="ui-monospace, 'SFMono-Regular', Consolas, monospace" font-size="11" font-weight="700" fill="#24302b">02</text>
+        <text x="55" y="30" font-family="ui-monospace, 'SFMono-Regular', Consolas, monospace" font-size="12" letter-spacing=".6" fill="#24302b">RESEARCH INSTRUMENTATION</text>
+        <text x="15" y="76" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="31" font-weight="720" letter-spacing="-.9" fill="#24302b">WheelAthlete</text>
+        <text x="16" y="107" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="17" font-weight="650" fill="#24302b">Browse source code ↗</text>
+        <g fill="none" stroke="#406557" color="#406557" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".9"><circle cx="421" cy="67" r="33"/><circle cx="474" cy="67" r="33"/><path d="M421 38v58m-29-29h58m24-29v58m-29-29h58M453 27l11-12h28"/><circle cx="421" cy="67" r="5" fill="currentColor"/><circle cx="474" cy="67" r="5" fill="currentColor"/></g>
+</svg>

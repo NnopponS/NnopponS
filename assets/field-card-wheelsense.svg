@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 128" width="550" height="128" role="img" aria-label="WheelSense &amp; EaseAI: Engineering case study">
+<title>WheelSense &amp; EaseAI: Engineering case study</title>
+<rect x=".5" y=".5" width="549" height="127" rx="14" fill="#1c2926" stroke="#d4dece" stroke-opacity=".55"/>
+        <path d="M367 18v92" stroke="#d4dece" opacity=".45"/>
+        <rect x="15" y="16" width="29" height="19" rx="5" fill="#d4dece" opacity=".22"/>
+        <text x="22" y="30" font-family="ui-monospace, 'SFMono-Regular', Consolas, monospace" font-size="11" font-weight="700" fill="#f5f2e9">01</text>
+        <text x="55" y="30" font-family="ui-monospace, 'SFMono-Regular', Consolas, monospace" font-size="12" letter-spacing=".6" fill="#f5f2e9">ASSISTIVE TECHNOLOGY</text>
+        <text x="15" y="76" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="31" font-weight="720" letter-spacing="-.9" fill="#f5f2e9">WheelSense &amp; EaseAI</text>
+        <text x="16" y="107" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="17" font-weight="650" fill="#f5f2e9">Engineering case study ↗</text>
+        <g fill="none" stroke="#d4dece" color="#d4dece" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".9"><path d="M402 104V48l46-25 47 25v56m-93-2h93m-34 0V73h20v29m-66-44h19v16h-19zm37-10a16 16 0 0 1 26 0m-21 5a9 9 0 0 1 16 0"/><circle cx="465" cy="58" r="2.5" fill="currentColor"/></g>
+</svg>

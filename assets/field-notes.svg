@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 170" width="840" height="170" role="img" aria-label="Field Notes: sense, understand, build">
+<title>Field Notes: sense, understand, build</title>
+<style>
+      .scan { animation: trace 7s ease-in-out infinite; }
+      @keyframes trace {
+        0%, 15% { stroke-dashoffset: 610; opacity: 0; }
+        25% { opacity: 1; }
+        68%, 83% { stroke-dashoffset: 0; opacity: 1; }
+        100% { stroke-dashoffset: 0; opacity: 0; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .scan { animation: none; opacity: 0; }
+      }
+    </style>
+    <rect width="840" height="170" rx="17" fill="#1c2926"/>
+    <path d="M17 1.5H823" stroke="#a86747" stroke-width="3" opacity=".75"/>
+    <path d="M422 22v126m39-126v126m39-126v126m39-126v126m39-126v126m39-126v126m39-126v126m39-126v126m39-126v126m39-126v126m39-126v126 M421 36h386m-386 25h386m-386 25h386m-386 25h386m-386 25h386" stroke="#d4dece" opacity=".12"/>
+    <g fill="#f5f2e9">
+      <text x="32" y="34" font-family="ui-monospace, 'SFMono-Regular', Consolas, monospace" font-size="12" letter-spacing="2.3" fill="#d4dece">WORAPON SANGSASRI / ENGINEERING</text>
+      <text x="31" y="99" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="57" font-weight="700" letter-spacing="-3">Field Notes</text>
+      <text x="33" y="136" font-family="ui-monospace, 'SFMono-Regular', Consolas, monospace" font-size="17" letter-spacing="1.25">Sense  /  Understand  /  Build</text>
+    </g>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M419 92h35l13-13 13 23 15-45 21 70 21-58 14 23h39l18 17 18-43 19 27h42l14-18 23 31 13-14h67" stroke="#86a092" stroke-width="1.7"/>
+      <path class="scan" d="M419 92h35l13-13 13 23 15-45 21 70 21-58 14 23h39l18 17 18-43 19 27h42l14-18 23 31 13-14h67" stroke="#e9ae87" stroke-width="2.6" stroke-dasharray="610" stroke-dashoffset="610"/>
+      <circle cx="420" cy="92" r="4" fill="#f5f2e9"/>
+      <circle cx="804" cy="92" r="4" fill="#f5f2e9"/>
+    </g>
+    <text x="803" y="150" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', Consolas, monospace" font-size="12" letter-spacing="1.5" fill="#d4dece">BANGKOK, THAILAND</text>
+</svg>
